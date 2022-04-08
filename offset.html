@@ -15,9 +15,12 @@
     }
 
     body{
-        background-color: antiquewhite;
+        background-image: linear-gradient(60deg, rgb(59, 88, 182),rgb(16, 17, 9));
+        background-repeat: no-repeat;
+        min-height: 100vh;
         margin-top: 40px;
         text-align: center;
+        color: aliceblue;
     }
 
     h2{
@@ -28,6 +31,11 @@
         border: 1px solid blueviolet;
 
     }
+    .row{
+        background-color: aquamarine;
+        color: black;
+    }
+
 </style>
 
 <body>
@@ -36,23 +44,45 @@
     <!--  OFFSET -->
     <div class="container">
         <h2>Offset</h2>
-        <p>Offset nos permite desplazar y asi poder centrar</p>
+        <p>Offset nos permite desplazar a cada elemento del row => offset-valor</p>
         <div class="row">
-            <div class="offset-6 col-3  element">Element1</div>
+            <div class="offset-0 col-4  element">Element1</div>
             <!-- <div class="col  element">Element2</div> -->
         </div>
+
+
+        <div class="row">
+            <div class="offset-4 col-4  element">Element1</div>
+            <!-- <div class="col  element">Element2</div> -->
+        </div>
+
+
+        <div class="row">
+            <div class="offset-8 col-4  element">Element1</div>
+            <!-- <div class="col  element">Element2</div> -->
+        </div>
+
+
+        <br> <br>
+        <div class="row">
+            <div class="offset-0 col-2  element">Element1</div>
+            <div class="col-2  element">Element2</div>
+        </div>
+
+        <div class="row">
+            <div class="offset-4 col-2  element">Element1</div>
+            <div class="col-2  element">Element2</div>
+        </div>
+
+        <div class="row">
+            <div class="offset-8 col-2  element">Element1</div>
+            <div class="col-2  element">Element2</div>
+        </div>
+
     </div>
 
 
-    <!-- ALINEACION DE REJILLA -->
-    <div class="container">
-        <h2>Offset</h2>
-        <p>Offset nos permite desplazar y asi poder centrar</p>
-        <div class="row">
-            <div class="offset-6 col-3  element">Element1</div>
-            <!-- <div class="col  element">Element2</div> -->
-        </div>
-    </div>
+    
 
 
 
